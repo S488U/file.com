@@ -1,0 +1,229 @@
+.navbar {
+    font-size: large;
+    background: transparent;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.search-bar:focus {
+    box-shadow: none;
+}
+
+.set-edit {
+    background: linear-gradient(to top, #808080 -41%, #ffffff 100%);
+    width: 100%;
+    height: 110vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 0;
+    margin:0;
+}
+
+.set-edit h1 {
+    display: flex;
+    margin: 160px 160px 30px 160px; 
+    display: inline-block;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.img {
+    width: 500px;
+}
+
+
+a{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: large;
+}
+
+a:hover {
+    color: white;
+}
+
+.card-1 {
+    background-color: lightgrey;
+    width: 100%;
+    height: 110vh;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}
+
+.icon {
+    margin-bottom: 5px;
+}
+.card-2 {
+    border-radius: 30px;
+    margin: auto;
+    line-height: 3;
+}
+
+.main-container-slide {
+    margin: 15rem;
+    background-color: #808080;
+}
+
+.image-slide {
+    height: 550px;
+}
+
+.pro-picture {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-container {
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #808080 -41%, #ffffff 100%);
+    margin: 0;
+    
+}
+
+.main-container .first-container {
+    margin: 50px;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    left: 200px;
+}
+
+h4, p {
+    display: inline-block;
+}
+
+footer {
+    background: grey;
+    padding: 20px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+.footer-container {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    line-height: 2;
+    position: relative;
+    left: 100px;
+}
+.linkhover:hover {
+    color:rgb(194, 192, 192);
+}
+
+.copyrights {
+    line-height: 3;
+    margin: auto;
+    font-weight: 600;
+}
+
+@media screen and (max-width:600px ){
+
+
+    /*****   Navbar   *********/
+
+    .hamburger-btn{
+        border: none;
+    }
+
+    .hamburger-btn:hover {
+        border: none;
+        box-shadow: none;
+    }
+
+    /***********   Main page   *********/
+    .set-edit {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .button {
+        margin: 7px;
+    }
+
+    .button2 {
+        width: 190px;
+    }
+
+    /*****  Carousel ************/
+
+    .main-container-slide{
+        margin: 8rem 1rem ;
+        display: flex;
+        background-color: #808080;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .image-slide {
+        width: 100px;
+        height: 37vh;
+    }
+
+    /******    Cards    ********/
+
+    .main-container .first-container {
+        position: relative;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        line-height: 1;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pro-picture {
+        margin-bottom: 20px;
+    }
+
+
+
+    /***** Footer ********/
+
+    footer {
+        height: 90vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-container {
+        margin: 0;
+        position: relative;
+        left: -80px;
+        display: grid;
+    }
+
+    
+
+}

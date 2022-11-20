@@ -1,0 +1,36 @@
+.cont {
+    margin: 5rem;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    width: 15.5rem;
+}
+
+.mail:focus {
+    box-shadow: none;
+}
+
+.larger-font {
+    position: relative;
+}
+
+.lform {
+    position: relative;
+    left: -92px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .lform {
+        position: relative;
+        left: 0px;
+    }
+
+    .larger-font {
+        position: unset;
+    }
+}
