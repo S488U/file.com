@@ -31,6 +31,7 @@
 
 button {
     margin-right: 10px;
+    width: 90px;
 }
 
 .img {
@@ -166,12 +167,18 @@ footer {
         width: 100%;
     }
 
+    .set-edit h1{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
     .button {
         margin: 7px;
+        width: 90px;
     }
 
     .button2 {
-        width: 190px;
+        width: 90px;
     }
 
     /*****  Carousel ************/
