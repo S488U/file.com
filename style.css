@@ -1,6 +1,13 @@
+:root{
+    scroll-behavior: smooth;
+}
+
 .navbar {
     font-size: large;
     background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -107,6 +114,7 @@ a:hover {
     text-align: left;
     position: relative;
     left: 200px;
+    width: 80%;
 }
 
 h4, p {
@@ -116,7 +124,7 @@ h4, p {
 footer {
     background: grey;
     padding: 20px;
-    height: 40vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -126,7 +134,7 @@ footer {
 }
 
 .footer-container {
-    width: 100%;
+    width: 80%;
     padding-top: 50px;
     display: flex;
     flex-direction: row;
@@ -148,6 +156,9 @@ footer {
 
 @media screen and (max-width:600px ){
 
+    body {
+        width: screen;
+    }
 
     /*****   Navbar   *********/
 
@@ -160,6 +171,14 @@ footer {
         box-shadow: none;
     }
 
+    .ham-sub {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-fluid {
+        width: screen;
+    }
     /***********   Main page   *********/
     .set-edit {
         display: flex;
@@ -219,7 +238,7 @@ footer {
     /***** Footer ********/
 
     footer {
-        height: 90vh;
+        height: 90vhvh;
         margin: 0;
         padding: 0;
     }
